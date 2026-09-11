@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Christa ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- OPENING -->
+    <!-- ========================= -->
+
+    <section class="opening">
+
+        <p class="eyebrow">a little something for you !</p>
+
+        <h1>
+            HAPPY<br>
+            BIRTHDAY,<br>
+            CHRISTA!
+        </h1>
+
+        <p class="opening-text">
+            Happy birthday to my best friend ever!
+            <br>
+            I hope this little page makes your day
+            a little more special ♡
+        </p>
+
+        <div class="divider">✦ ───────── ♡ ───────── ✦</div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUESTIONS -->
+    <!-- ========================= -->
+
+    <section class="questions">
+
+
+        <h2 class="reveal">
+            YOUR<br>
+            ORDER
+        </h2>
+
+        <p class="section-intro reveal">
+            You gave me some questions to answer
+            on your birthday, so here they are!
+        </p>
+
+        <!-- QUESTION 1 -->
+        <div class="question-card">
+            <button class="question-button" onclick="openQuestion(1)">
+                <span class="question-number">01</span>
+                <span class="question-title">1st Question</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+
+        <!-- QUESTION 2 -->
+        <div class="question-card">
+            <button class="question-button" onclick="openQuestion(2)">
+                <span class="question-number">02</span>
+                <span class="question-title">2nd Question</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+
+        <!-- QUESTION 3 -->
+        <div class="question-card">
+            <button class="question-button" onclick="openQuestion(3)">
+                <span class="question-number">03</span>
+                <span class="question-title">3rd Question</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+
+        <!-- QUESTION 4 -->
+        <div class="question-card">
+            <button class="question-button" onclick="openQuestion(4)">
+                <span class="question-number">04</span>
+                <span class="question-title">4th Question</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+
+        <!-- QUESTION 5 -->
+        <div class="question-card">
+            <button class="question-button" onclick="openQuestion(5)">
+                <span class="question-number">05</span>
+                <span class="question-title">5th Question</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- SCRAPBOOK -->
+    <!-- ========================= -->
+
+    <section class="memories">
+
+    <div class="memory-heading">
+
+        <h2 class="reveal">
+            OUR<br>
+            LITTLE<br>
+            MEMORIES
+        </h2>
+
+        <p class="reveal">
+            Meskipun nggak ada foto yang bener ya, WKWKWK
+        </p>
+    </div>
+
+
+    <div class="polaroid-gallery">
+
+        <div class="memory-photo photo-1">
+            <div class="photo-frame">
+                <img src="images/photo1.jpeg" alt="Memory 1">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-2">
+            <div class="photo-frame">
+                <img src="images/photo2.jpeg" alt="Memory 2">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-3">
+            <div class="photo-frame">
+                <img src="images/photo3.jpeg" alt="Memory 3">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-4">
+            <div class="photo-frame">
+                <img src="images/photo4.jpeg" alt="Memory 4">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-5">
+            <div class="photo-frame">
+                <img src="images/photo5.jpeg" alt="Memory 5">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-6">
+            <div class="photo-frame">
+                <img src="images/photo6.jpeg" alt="Memory 6">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-7">
+            <div class="photo-frame">
+                <img src="images/photo7.jpeg" alt="Memory 7">
+            </div>
+        </div>
+
+        <div class="memory-photo photo-8">
+            <div class="photo-frame">
+                <img src="images/photo8.jpeg" alt="Memory 8">
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <footer>
+        by Grace Melvin Estrada
+    </footer>
+
+    <!-- ========================= -->
+    <!-- QUESTION POPUP -->
+    <!-- ========================= -->
+
+    <div class="popup-overlay" id="questionPopup">
+
+        <div class="popup-card">
+
+            <button class="close-button" onclick="closeQuestion()">
+                ×
+            </button>
+
+            <p class="popup-number" id="popupNumber">
+                01
+            </p>
+
+            <h3 id="popupTitle">
+                1st Question
+            </h3>
+
+            <div class="popup-line"></div>
+
+            <p id="popupAnswer">
+                Jawaban kamu akan muncul di sini ♡
+            </p>
+
+            <p class="popup-sign">
+                ♡
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
